@@ -1,0 +1,77 @@
+html {
+    background: #3A3A56;
+}
+
+html > body > div.navbar > h1.companyName {
+    background: #707070;
+    float: left;
+    padding: 10px;
+}
+
+html > body > div.navbar > ul.navbarTabs {
+    background: #707070;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+html > body > div.navbar > ul.navbarTabs > li {
+    float: right;
+    padding: 19.5px;
+}
+
+html > body > div.navbar > ul.navbarTabs > li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+html > body > div.navbar > ul.navbarTabs > li > a.navbarActive {
+    background: #505050;
+    padding: 20px;
+}
+
+html > body > div.sloganAndPicture > h1 {
+    background: #000000;
+    color: #E9E05F;
+    font-size: 70px;
+    padding: 120px;
+    text-align: center;
+}
+
+html > body > div.homeContent {
+    background: #FFFFFF;
+    text-align: center;
+}
+
+html > body > div.homeContent > p.tealBox {
+    background: #A4FFD7;
+    border-radius: 25px;
+    display: inline-block;
+    height: 250px;
+    margin: 5% 5% 0px 5%;
+    width: 250px;
+}
+
+html > body > div.homeContent > p.orangeBox {
+    background: #FFC36C;
+    display: inline-block;
+    height: 250px;
+    margin: 5% 5% 0px 5%;
+    width: 435px;
+}
+
+html > body > div.homeContent > p.halves {
+    color: #000000;
+    display: inline-block;
+    margin: 5% 5% 5% 5%;
+    padding: 40px;
+    width: 355px;
+    text-align: left;
+}
+
+html > body > div.homeContent > p.halves > img {
+    max-width: 100%;
+}
+
+html > body > footer {
+    height: 100px
+}
